@@ -45,7 +45,7 @@
 			<p>Em 1952, abriu a primeira loja Bob's em Copacabana, lançando no Brasil o cachorro-quente (hot-dog), o hambúrguer, o milk-shake e o sundae. A primeira investida estrangeira de sucesso veio somente em 1979, com a abertura da primeira loja do McDonald's no Brasil, também em Copacabana. Desde então, o mercado viu a entrada de várias redes com presença regional e algumas com presença nacional. Entre estas, estão Subway (americana), McDonald's (americana), Habib's (brasileira, origem SP, Giraffas (brasileira, origem DF), Bob's (americana e brasileira, origem RJ), Vivenda do Camarão (brasileira), Spoleto (brasileira, origem RJ) e Pizza Hut</p>
 		</div>
 		</article>
-		<form  method="POST" action="index.js" onsubmit="enviar();">
+		<form  method="POST" action="index.js" onsubmit="return enviar();">
 			<table>
 				<tr>
 					<td>Nome:</td>
@@ -68,7 +68,7 @@
 					</select>
 					</td>
 				</tr>
-				<td> <button class="botao" >Enviar dados</button></td>
+				<td> <input type="submit" value="enviar"></td>
 			</table>
 		</form>
 	</main>
